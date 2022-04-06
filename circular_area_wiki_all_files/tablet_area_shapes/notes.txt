@@ -1,0 +1,9 @@
+to get the shape of a forward mapping:
+1. Use 10k_circle.png or square_grid_thick_checkerboard.png from base images
+2. Use an inverse mapping algorithm on it
+3. Outputs can directly be run through these steps again in place of the images used in step 1 to visualize applying the mapping multiple times
+
+to get the shape of an inverse mapping (the way circular area plugin handles it):
+1. Use 10k_square.png or circle_grid_thick_checkerboard.png from base images
+2. Use an inverse mapping algorithm on it
+3. Outputs must be scaled down by x/sqrt(2) before buing run through again in place of the images used in step 1 to visualize applying the mapping multiple times
